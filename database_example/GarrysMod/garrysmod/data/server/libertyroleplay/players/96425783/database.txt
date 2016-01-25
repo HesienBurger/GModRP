@@ -1,0 +1,21 @@
+"TableToKeyValues"
+{
+	"inventory"
+	{
+		"soda2"
+		{
+			"amount"		"5"
+		}
+		"soda1"
+		{
+			"amount"		"5"
+		}
+		"Water"
+		{
+			"amount"		"5"
+		}
+	}
+	"xp"		"0"
+	"money"		"100"
+	"hunger"		"0"
+}

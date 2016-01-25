@@ -1,5 +1,5 @@
-GM.Name = "GModRP"
-GM.Author = "Heisen/Smuzee" -- Jack/Aaron
+GM.Name = "LibertyRoleplay"
+GM.Author = "Heisen"
 GM.Email = "N/A"
 GM.Website = ""
 
