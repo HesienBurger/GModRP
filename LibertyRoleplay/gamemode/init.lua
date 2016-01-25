@@ -16,13 +16,13 @@ end
 
 function GM:PlayerInitialSpawn( ply )
 	print("Player: " .. ply:Nick() .. ", has spawned.")
-	
 	ply:SetGamemodeTeam( 0 )
 end
 
 function GM:PlayerSpawn( ply )
 	ply:SetModel("models/player/group01/male_07.mdl")
 	ply:GiveGamemodeWeapons()
+		
 end
 
 function GM:PlayerAuthed( ply, steamID, uniqueID )
@@ -37,4 +37,5 @@ end
 net.Receive("KEY_Q", function(len, ply)
 	hook.Call("KEY_Q", GAMEMODE, ply)
 end)
+
 
